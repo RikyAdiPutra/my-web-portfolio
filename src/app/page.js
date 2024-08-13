@@ -12,9 +12,9 @@ export default function Home() {
       <Header />
       <main className="space-y-8">
         <About />
-        {/* <Skills />
+        <Skills />
         <Projects />
-        <Experience />
+        {/* <Experience />
         <Contact /> */}
       </main>
       {/* <Footer /> */}
