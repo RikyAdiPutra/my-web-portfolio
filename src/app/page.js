@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <div>
       <Header />
-      {/* <main className="space-y-8">
+      <main className="space-y-8">
         <About />
-        <Skills />
+        {/* <Skills />
         <Projects />
         <Experience />
-        <Contact />
+        <Contact /> */}
       </main>
-      <Footer /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
