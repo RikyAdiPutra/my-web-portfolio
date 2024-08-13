@@ -1,11 +1,10 @@
-// components/Projects.js
 export default function Projects() {
   const projects = [
     {
       title: "Project 1",
       description: "This is a brief description of Project 1.",
-      image: "/images/boom-img.png", // Ganti dengan path gambar proyek kamu
-      link: "#", // Ganti dengan link ke proyek atau repositori
+      image: "/images/boom-img.png",
+      link: "#",
     },
     {
       title: "Project 2",
