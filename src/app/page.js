@@ -9,11 +9,19 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main className="space-y-8">
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+      <main>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>

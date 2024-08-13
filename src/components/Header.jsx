@@ -9,33 +9,37 @@ export default function Header() {
         </h1>
         <nav>
           <ul className="flex space-x-6">
-            <li>
+            <li className="relative group">
               <Link legacyBehavior href="#about">
                 <a className="text-gray-300 hover:text-gray-100 transition duration-300 font-hind">
                   About
                 </a>
               </Link>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li>
+            <li className="relative group">
               <Link legacyBehavior href="#skills">
                 <a className="text-gray-300 hover:text-gray-100 transition duration-300 font-hind">
                   Skills
                 </a>
               </Link>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li>
+            <li className="relative group">
               <Link legacyBehavior href="#projects">
                 <a className="text-gray-300 hover:text-gray-100 transition duration-300 font-hind">
                   Projects
                 </a>
               </Link>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li>
+            <li className="relative group">
               <Link legacyBehavior href="#contact">
                 <a className="text-gray-300 hover:text-gray-100 transition duration-300 font-hind">
                   Contact
                 </a>
               </Link>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         </nav>
