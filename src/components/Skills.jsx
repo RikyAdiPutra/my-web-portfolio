@@ -10,6 +10,7 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { IoLogoFigma } from "react-icons/io5";
 
 export default function Skills() {
   const skills = [
@@ -52,6 +53,10 @@ export default function Skills() {
     {
       name: "Node.js",
       icon: <FaNodeJs size={40} className="text-green-500 mx-auto" />,
+    },
+    {
+      name: "Figma",
+      icon: <IoLogoFigma size={40} className="text-[#F24E1E] mx-auto" />,
     },
   ];
 

@@ -26,6 +26,14 @@ export default function Header() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li className="relative group">
+              <Link legacyBehavior href="#articles">
+                <a className="text-white hover:text-gray-200 transition duration-300 font-hind">
+                  Articles
+                </a>
+              </Link>
+              <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </li>
+            <li className="relative group">
               <Link legacyBehavior href="#projects">
                 <a className="text-gray-300 hover:text-gray-100 transition duration-300 font-hind">
                   Projects
