@@ -3,7 +3,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-export const ContactUs = () => {
+const ContactUs = () => {
   const form = useRef();
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -139,3 +139,5 @@ export const ContactUs = () => {
     </section>
   );
 };
+
+export default ContactUs;
