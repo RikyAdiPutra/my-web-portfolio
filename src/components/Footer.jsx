@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+          &copy; {new Date().getFullYear()} Riky Adi Putra. All rights reserved.
         </p>
       </div>
     </footer>
