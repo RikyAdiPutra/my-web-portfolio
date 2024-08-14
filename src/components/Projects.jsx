@@ -1,52 +1,43 @@
 export default function Projects() {
-  const images = ["/boom-img.png", "/ecommerce-img.png"];
-
   const projects = [
     {
       title: "Boom Health",
-      description: `Boom Health is a health-focused web platform offering personalized recommendations, 
-                    online consultations, and a rich library of health resources. 
-                    Designed for ease of use with a responsive and intuitive interface.`,
+      description:
+        "A health-focused website designed to provide users with essential information and resources for maintaining their well-being. The platform features a clean and user-friendly interface, ensuring easy access to health tips, articles, and tools for tracking personal health goals.",
       link: "https://boomhealth.ae/",
     },
     {
       title: "E-Commerce App",
-      description: `The E-Commerce App is an online shopping platform featuring a wide product range, 
-                    secure payments, and user-friendly navigation. 
-                    Optimized for all devices with advanced search options.`,
+      description:
+        "An efficient and user-friendly e-commerce application that offers a seamless shopping experience. The platform supports a wide range of products and features a secure payment system, allowing users to browse, select, and purchase items with ease.",
       link: "https://my-commerce-peach.vercel.app/",
     },
   ];
 
   return (
-    <section id="projects" className="pb-12 pt-20 px-16 bg-gray-900">
+    <section id="projects" className="py-12 px-16 bg-gray-900 text-white">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-gray-100 mb-8 text-center font-hind">
+        <h2 className="text-4xl font-bold text-white mb-8 text-center font-hind">
           Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+              className="bg-gray-800 shadow-lg rounded-lg p-6 hover:bg-gray-700 transition duration-300"
             >
-              <img
-                src={images[index]}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-100 mb-2 font-hind">
-                  {project.title}
-                </h3>
-                <p className="text-gray-400 mb-4">{project.description}</p>
-                <a
-                  href={project.link}
-                  className="text-indigo-400 hover:text-indigo-600 font-semibold font-hind"
-                >
-                  View Project
-                </a>
-              </div>
+              <h3 className="text-2xl font-bold text-white mb-2 font-hind">
+                {project.title}
+              </h3>
+              <p className="text-gray-300 mb-4">{project.description}</p>
+              <a
+                href={project.link}
+                className="text-indigo-400 hover:text-indigo-600 font-semibold font-hind"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
             </div>
           ))}
         </div>
