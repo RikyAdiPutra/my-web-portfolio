@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Articles from "@/components/Articles";
+import { ContactUs } from "@/components/ContactEx";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           <Projects />
         </section>
         <section id="contact">
-          <Contact />
+          <ContactUs />
         </section>
       </main>
       <Footer />
