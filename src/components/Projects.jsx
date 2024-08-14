@@ -19,7 +19,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-12 px-16 bg-gray-900">
+    <section id="projects" className="pb-12 pt-20 px-16 bg-gray-900">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-100 mb-8 text-center font-hind">
           Projects

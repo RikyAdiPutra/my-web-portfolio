@@ -21,7 +21,7 @@ export default function Articles() {
   }, []);
 
   return (
-    <section id="articles" className="py-16 bg-gray-800">
+    <section id="articles" className="pb-16 pt-24 bg-gray-800">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-gray-100 mb-8 text-center font-hind">
           My Articles

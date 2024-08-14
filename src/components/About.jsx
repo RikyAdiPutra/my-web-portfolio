@@ -13,30 +13,20 @@ export default function About() {
           <h2 className="text-4xl font-bold text-gray-100 mb-4 font-hind">
             About Me
           </h2>
-          <p className="text-lg text-gray-300 leading-relaxed">
-            I’m a passionate developer with a love for creating interactive and
-            <span className="font-semibold">
-              {" "}
-              user-friendly web applications
-            </span>
-            . With a strong foundation in
-            <span className="font-semibold"> frontend technologies</span> and a
-            keen eye for design, I aim to bring ideas to life in the digital
-            space. My journey in web development started from a
-            <span className="font-semibold"> simple curiosity</span>, which
-            quickly evolved into a deep-seated passion for building impactful
-            web solutions.
+          <p className="text-lg leading-relaxed">
+            I am a <span className="font-bold">dedicated web developer</span>{" "}
+            with a focus on creating
+            <span className="font-bold"> efficient and user-friendly</span> web
+            applications. With strong experience in frontend development and a
+            deep understanding of design principles, I strive to combine
+            functionality with aesthetics.
           </p>
-          <p className="text-lg text-gray-300 leading-relaxed mt-4">
-            When I'm not coding, you can find me exploring new technologies,
-            <span className="font-semibold">
-              {" "}
-              contributing to open-source projects
-            </span>
-            , or indulging in my love for photography. Let's connect and{" "}
-            <span className="font-semibold">
-              create something amazing together!
-            </span>
+          <p className="text-lg leading-relaxed mt-4">
+            I believe that{" "}
+            <span className="font-bold">attention to detail</span> is key to
+            creating an exceptional user experience. In every project I work on,
+            I am committed to delivering the best results and always seek
+            opportunities to <span className="font-bold">learn and grow</span>.
           </p>
         </div>
       </div>
