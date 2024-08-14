@@ -1,5 +1,5 @@
 export default function Projects() {
-  const images = ["/images/boom-img.png", "/images/ecommerce-img.png"];
+  const images = ["/boom-img.png", "/ecommerce-img.png"];
 
   const projects = [
     {
