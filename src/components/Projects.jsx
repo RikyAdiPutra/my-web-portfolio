@@ -1,11 +1,12 @@
 export default function Projects() {
+  const images = ["/images/boom-img.png", "/images/ecommerce-img.png"];
+
   const projects = [
     {
       title: "Boom Health",
       description: `Boom Health is a health-focused web platform offering personalized recommendations, 
                     online consultations, and a rich library of health resources. 
                     Designed for ease of use with a responsive and intuitive interface.`,
-      image: "/images/boom-img.png",
       link: "https://boomhealth.ae/",
     },
     {
@@ -13,7 +14,6 @@ export default function Projects() {
       description: `The E-Commerce App is an online shopping platform featuring a wide product range, 
                     secure payments, and user-friendly navigation. 
                     Optimized for all devices with advanced search options.`,
-      image: "/images/ecommerce-img.png",
       link: "https://my-commerce-peach.vercel.app/",
     },
   ];
@@ -31,7 +31,7 @@ export default function Projects() {
               className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
             >
               <img
-                src={project.image}
+                src={images[index]}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />
